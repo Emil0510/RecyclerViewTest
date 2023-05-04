@@ -26,6 +26,8 @@ class MainActivity : AppCompatActivity() {
         Person("Ceyhune", "Sevdiyeva", 17)
     )
 
+    //List created
+
     var countryList : List<Country> = mutableListOf<Country>(
         Country("Azerbaijan", "Baku", R.drawable.azerbaijan),
         Country("Turkey", "Ankara", R.drawable.turkey),
