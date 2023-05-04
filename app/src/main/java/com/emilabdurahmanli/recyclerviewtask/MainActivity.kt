@@ -13,6 +13,7 @@ import com.emilabdurahmanli.recyclerviewtask.model.Person
 import jp.wasabeef.recyclerview.animators.SlideInLeftAnimator
 import jp.wasabeef.recyclerview.animators.SlideInUpAnimator
 
+// Here is the test comment
 class MainActivity : AppCompatActivity() {
 
     lateinit var binding : ActivityMainBinding
