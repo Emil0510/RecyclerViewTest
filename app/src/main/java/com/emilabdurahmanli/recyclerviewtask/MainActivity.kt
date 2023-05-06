@@ -32,7 +32,9 @@ class MainActivity : AppCompatActivity() {
         Country("Azerbaijan", "Baku", R.drawable.azerbaijan),
         Country("Turkey", "Ankara", R.drawable.turkey),
         Country("Canada", "Ottawa", R.drawable.canada),
-        Country("Sweden", "Stockholm", R.drawable.sweden)
+        Country("Sweden", "Stockholm", R.drawable.sweden),
+        Country("Ukraine", "Kyiv", R.drawable.ukraine)
+
     )
 
     override fun onCreate(savedInstanceState: Bundle?) {
