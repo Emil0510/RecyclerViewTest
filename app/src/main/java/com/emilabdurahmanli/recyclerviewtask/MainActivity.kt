@@ -26,11 +26,17 @@ class MainActivity : AppCompatActivity() {
         Person("Ceyhune", "Sevdiyeva", 17)
     )
 
+
+    //List created
+
     var countryList : MutableList<Country> = mutableListOf<Country>(
+
         Country("Azerbaijan", "Baku", R.drawable.azerbaijan),
         Country("Turkey", "Ankara", R.drawable.turkey),
         Country("Canada", "Ottawa", R.drawable.canada),
-        Country("Sweden", "Stockholm", R.drawable.sweden)
+        Country("Sweden", "Stockholm", R.drawable.sweden),
+        Country("Ukraine", "Kyiv", R.drawable.ukraine)
+
     )
 
     override fun onCreate(savedInstanceState: Bundle?) {
