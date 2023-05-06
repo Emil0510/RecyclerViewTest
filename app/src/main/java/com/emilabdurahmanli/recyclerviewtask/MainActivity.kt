@@ -19,14 +19,14 @@ class MainActivity : AppCompatActivity() {
     lateinit var adapter : RecyclerViewVerticalAdapter
     lateinit var adapter2 : RecyclerViewHorizontalAdapter
 
-    var personList : List<Person> = mutableListOf<Person>(
+    var personList : MutableList<Person> = mutableListOf<Person>(
         Person("Ibrahim", "Eliyev", 18),
         Person("Nihat", "Mammadli", 17),
         Person("Emil", "Abdurahmanli", 17),
         Person("Ceyhune", "Sevdiyeva", 17)
     )
 
-    var countryList : List<Country> = mutableListOf<Country>(
+    var countryList : MutableList<Country> = mutableListOf<Country>(
         Country("Azerbaijan", "Baku", R.drawable.azerbaijan),
         Country("Turkey", "Ankara", R.drawable.turkey),
         Country("Canada", "Ottawa", R.drawable.canada),
@@ -57,7 +57,7 @@ class MainActivity : AppCompatActivity() {
     }
     fun listeners(){
         binding.button.setOnClickListener {
-            personList = personList + Person("Emil", "Abdurahmanli", 17)
+            personList = (personList + Person("Emil", "Abdurahmanli", 17)) as MutableList<Person>
 
 
         }
