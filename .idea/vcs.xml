@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="VcsDirectoryMappings">
-<<<<<<< HEAD
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/RecyclerViewTest" vcs="Git" />
-=======
     <mapping directory="" vcs="Git" />
->>>>>>> 48b07277b6657ff15691d7557f0446c0d5d96742
   </component>
 </project>
